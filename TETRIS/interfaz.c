@@ -5,9 +5,9 @@ void mostrarPantallaPrincipal(void)
 {
     gbt_borrar_backbuffer(0);
 
-    dibujarTexto("TETRIS", 3, 2);
-    dibujarTexto("ENTER", 3, 6);
-    dibujarTexto("ESC", 4, 8);
+    dibujarTexto("TETRIS", 3, 0);
+    dibujarTexto("ENTER", 3, 1);
+    dibujarTexto("ESC", 4, 9);
 
     gbt_volcar_backbuffer();
 }

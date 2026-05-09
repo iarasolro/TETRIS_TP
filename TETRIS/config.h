@@ -1,6 +1,13 @@
 #ifndef CONFIG_H_INCLUDED
 #define CONFIG_H_INCLUDED
 
+#define ANCHO_VENTANA 128
+#define ALTO_VENTANA 128
+#define ESCALA_VENTANA 5
 
+#define TAM_GRILLA 11
+
+#define FORMATO_RGB_888 1
+#define FORMATO_RGB_666 2
 
 #endif // CONFIG_H_INCLUDED
