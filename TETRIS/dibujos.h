@@ -8,7 +8,7 @@
 #include <stdint.h>
 
 #define PIXELES_X_LADO 8
-#define PX_PADDING 4
+#define PX_PADDING 1
 #define TAM_TETROMINIO 4
 #define TAM_BLOQUE 6
 

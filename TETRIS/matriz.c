@@ -2,7 +2,7 @@
 
 void* crearMatriz(int filas, int columnas, size_t tamElem)
 {///como no se crea en el stack, lo puedo devolver, no se destruye en esta funcion
-    void* mat = malloc(filas * sizeof(void*));
+    void** mat = malloc(filas * sizeof(void*));
 
     if(!mat)
         return NULL;
@@ -11,7 +11,7 @@ void* crearMatriz(int filas, int columnas, size_t tamElem)
 
     for(void** i = mat; i <= ult; i++)
     {
-        *i = malloc(columnas * sizeof(tamElem));
+        *i = malloc(columnas * tamElem);
 
         if(!*i)
         {
